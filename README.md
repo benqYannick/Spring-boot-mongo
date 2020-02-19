@@ -151,6 +151,19 @@ Disable
 sudo systemctl disable spring-boot
 ```
 
+[Spring-boot setting the MongoDB connection info]
+----
+
+In the "src/main/resources/application.properties" file. Add the following lines to the file 
+```
+spring.data.mongodb.host=[host]
+spring.data.mongodb.port=[port]
+spring.data.mongodb.authentication-database=[authentication_database]
+spring.data.mongodb.username=[username]
+spring.data.mongodb.password=[password]
+spring.data.mongodb.database=rest_tutorial
+```
+
 [Command line run Spring-boot]
 ----
 
