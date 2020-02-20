@@ -1,4 +1,4 @@
-[Architecture diagram]
+[Architecture Diagram]
 ----
 Spring Boot, MongoDB, AWS EC2
 <table>
@@ -13,14 +13,14 @@ Spring Boot, MongoDB, AWS EC2
 </table>
     
  
-[Postman Setting]
+[Postman Settings]
 ----
 1. Postman import API file 
     <a href="https://github.com/benqYannick/Spring-boot-mongo/tree/master/static/postman-example" target="_blank">
       (Spring-boot-Production.postman_collection.json)
     </a>
 
-2. After importing the file, the following image will be displayed: Spring-boot-Production folder
+2. After importing the file, the following image will be displayed: "Spring-boot-Local" folder
 
 <table>
       <tbody>
@@ -35,7 +35,7 @@ Spring Boot, MongoDB, AWS EC2
 
 * Get all: Show all MemoryUsage data
 * Get one: Display a specified amount of MemoryUsage data
-* Postone: Add a new MemoryUsage data
+* Post one: Add a new MemoryUsage data
 * Put one: Update a MemoryUsage data
 * Del one: Delete a MemoryUsage
 
